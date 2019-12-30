@@ -1,0 +1,151 @@
+2019-12-30 13:18:43.710+0000 [id=1]	INFO	org.eclipse.jetty.util.log.Log#initialized: Logging initialized @1661ms to org.eclipse.jetty.util.log.JavaUtilLog
+2019-12-30 13:18:43.833+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2019-12-30 13:18:49.160+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2019-12-30 13:18:49.238+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_144-b01
+2019-12-30 13:18:55.074+0000 [id=1]	INFO	org.eclipse.jetty.util.TypeUtil#<clinit>: JVM Runtime does not support Modules
+2019-12-30 13:18:55.111+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-12-30 13:18:55.172+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2019-12-30 13:18:55.173+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2019-12-30 13:18:55.175+0000 [id=1]	INFO	o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 600000ms
+2019-12-30 13:18:56.189+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Program Files (x86)\Jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2019-12-30 13:18:56.440+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@ec4a5{Jenkins v2.210,/,file:///C:/Program%20Files%20(x86)/Jenkins/war/,AVAILABLE}{C:\Program Files (x86)\Jenkins\war}
+2019-12-30 13:18:56.472+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@430e6c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-12-30 13:18:56.473+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started @14424ms
+2019-12-30 13:18:56.474+0000 [id=19]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2019-12-30 13:18:59.129+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2019-12-30 13:18:59.168+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2019-12-30 13:19:01.569+0000 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2019-12-30 13:19:01.577+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2019-12-30 13:19:01.586+0000 [id=24]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2019-12-30 13:19:05.557+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2019-12-30 13:19:05.576+0000 [id=45]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Download metadata
+2019-12-30 13:19:05.603+0000 [id=45]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2019-12-30 13:19:07.204+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1157a70: display name [Root WebApplicationContext]; startup date [Mon Dec 30 21:19:07 CST 2019]; root of context hierarchy
+2019-12-30 13:19:07.204+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1157a70]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5f9d9e
+2019-12-30 13:19:07.230+0000 [id=25]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5f9d9e: defining beans [authenticationManager]; root of factory hierarchy
+2019-12-30 13:19:07.698+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@913485: display name [Root WebApplicationContext]; startup date [Mon Dec 30 21:19:07 CST 2019]; root of context hierarchy
+2019-12-30 13:19:07.698+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@913485]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1f9e619
+2019-12-30 13:19:07.698+0000 [id=25]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f9e619: defining beans [filter,legacy]; root of factory hierarchy
+2019-12-30 13:19:08.049+0000 [id=25]	INFO	jenkins.install.SetupWizard#init: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+616bb5a6de784bc095828625dd276c6f
+
+This may also be found at: C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+2019-12-30 13:19:47.769+0000 [id=24]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2019-12-30 13:19:47.814+0000 [id=18]	INFO	hudson.WebAppMain$3#run: Jenkins is fully up and running
+2019-12-30 13:19:48.283+0000 [id=45]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2019-12-30 13:19:48.283+0000 [id=45]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2019-12-30 13:19:48.295+0000 [id=45]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Download metadata. 42,717 ms
+2019-12-30 13:21:25.558+0000 [id=11]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2019-12-30 13:21:32.704+0000 [id=48]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2019-12-30 13:21:42.248+0000 [id=11]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2019-12-30 13:21:42.249+0000 [id=11]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2019-12-30 13:21:50.252+0000 [id=48]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2019-12-30 13:21:50.252+0000 [id=48]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2019-12-30 13:22:09.107+0000 [id=46]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2019-12-30 13:22:28.677+0000 [id=46]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2019-12-30 13:22:28.679+0000 [id=46]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2019-12-30 13:30:06.633+0000 [id=15]	INFO	hudson.PluginManager#install: Starting installation of a batch of 3 plugins plus their dependencies
+2019-12-30 13:30:06.634+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of junit for plugin mstest
+2019-12-30 13:30:06.634+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of script-security for plugin junit
+2019-12-30 13:30:06.634+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of trilead-api for plugin script-security
+2019-12-30 13:30:06.635+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of jdk-tool for plugin script-security
+2019-12-30 13:30:06.635+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of trilead-api on behalf of admin
+2019-12-30 13:30:06.635+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of workflow-step-api for plugin junit
+2019-12-30 13:30:06.636+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of structs for plugin workflow-step-api
+2019-12-30 13:30:06.636+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of workflow-api for plugin junit
+2019-12-30 13:30:06.636+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of scm-api for plugin workflow-api
+2019-12-30 13:30:06.638+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of command-launcher for plugin mstest
+2019-12-30 13:30:06.640+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of workflow-scm-step for plugin git
+2019-12-30 13:30:06.640+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of credentials for plugin git
+2019-12-30 13:30:06.640+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of git-client for plugin git
+2019-12-30 13:30:06.641+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of apache-httpcomponents-client-4-api for plugin git-client
+2019-12-30 13:30:06.641+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of jsch for plugin git-client
+2019-12-30 13:30:06.641+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of ssh-credentials for plugin jsch
+2019-12-30 13:30:06.642+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of mailer for plugin git
+2019-12-30 13:30:06.643+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of display-url-api for plugin mailer
+2019-12-30 13:30:06.644+0000 [id=15]	INFO	hudson.model.UpdateSite$Plugin#deploy: Adding dependent install of bouncycastle-api for plugin msbuild
+2019-12-30 13:30:08.593+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading trilead-api
+2019-12-30 13:30:10.371+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: trilead-api
+2019-12-30 13:30:10.371+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of jdk-tool on behalf of admin
+2019-12-30 13:30:11.990+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading jdk-tool
+2019-12-30 13:30:12.494+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: jdk-tool
+2019-12-30 13:30:12.494+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of script-security on behalf of admin
+2019-12-30 13:30:13.671+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading script-security
+2019-12-30 13:30:17.988+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: script-security
+2019-12-30 13:30:17.989+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of structs on behalf of admin
+2019-12-30 13:30:19.178+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading structs
+2019-12-30 13:30:19.927+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: structs
+2019-12-30 13:30:19.928+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of workflow-step-api on behalf of admin
+2019-12-30 13:30:21.118+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading workflow-step-api
+2019-12-30 13:30:21.655+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: workflow-step-api
+2019-12-30 13:30:21.655+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of scm-api on behalf of admin
+2019-12-30 13:30:24.720+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading scm-api
+2019-12-30 13:30:25.948+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: scm-api
+2019-12-30 13:30:25.948+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of workflow-api on behalf of admin
+2019-12-30 13:30:27.343+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading workflow-api
+2019-12-30 13:30:28.043+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: workflow-api
+2019-12-30 13:30:28.043+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of junit on behalf of admin
+2019-12-30 13:30:29.178+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading junit
+2019-12-30 13:30:30.175+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: junit
+2019-12-30 13:30:30.175+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of command-launcher on behalf of admin
+2019-12-30 13:30:31.333+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading command-launcher
+2019-12-30 13:30:31.837+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: command-launcher
+2019-12-30 13:30:31.837+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of mstest on behalf of admin
+2019-12-30 13:30:33.383+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading mstest
+2019-12-30 13:30:34.166+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: mstest
+2019-12-30 13:30:34.166+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of workflow-scm-step on behalf of admin
+2019-12-30 13:30:35.618+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading workflow-scm-step
+2019-12-30 13:30:36.054+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: workflow-scm-step
+2019-12-30 13:30:36.054+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of credentials on behalf of admin
+2019-12-30 13:30:37.459+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading credentials
+2019-12-30 13:30:40.368+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: credentials
+2019-12-30 13:30:40.368+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of apache-httpcomponents-client-4-api on behalf of admin
+2019-12-30 13:30:41.515+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading apache-httpcomponents-client-4-api
+2019-12-30 13:30:46.462+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: apache-httpcomponents-client-4-api
+2019-12-30 13:30:46.462+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of ssh-credentials on behalf of admin
+2019-12-30 13:30:47.644+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading ssh-credentials
+2019-12-30 13:30:48.147+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: ssh-credentials
+2019-12-30 13:30:48.147+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of jsch on behalf of admin
+2019-12-30 13:30:49.557+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading jsch
+2019-12-30 13:30:51.790+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: jsch
+2019-12-30 13:30:51.790+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of git-client on behalf of admin
+2019-12-30 13:30:53.172+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading git-client
+2019-12-30 13:31:00.365+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: git-client
+2019-12-30 13:31:00.365+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of display-url-api on behalf of admin
+2019-12-30 13:31:01.514+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading display-url-api
+2019-12-30 13:31:01.810+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: display-url-api
+2019-12-30 13:31:01.810+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of mailer on behalf of admin
+2019-12-30 13:31:03.398+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading mailer
+2019-12-30 13:31:04.337+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: mailer
+2019-12-30 13:31:04.337+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of git on behalf of admin
+2019-12-30 13:31:05.487+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading git
+2019-12-30 13:31:06.905+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: git
+2019-12-30 13:31:06.905+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of bouncycastle-api on behalf of admin
+2019-12-30 13:31:08.068+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading bouncycastle-api
+2019-12-30 13:31:11.309+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: bouncycastle-api
+2019-12-30 13:31:11.309+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of msbuild on behalf of admin
+2019-12-30 13:31:12.681+0000 [id=102]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading msbuild
+2019-12-30 13:31:13.330+0000 [id=102]	INFO	h.model.UpdateCenter$DownloadJob#run: Installation successful: msbuild
+2019-12-30 13:31:13.330+0000 [id=102]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completing installing of plugin batch¡K
+2019-12-30 13:31:20.652+0000 [id=102]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tools.JDKInstaller
+2019-12-30 13:31:20.692+0000 [id=107]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2019-12-30 13:31:20.693+0000 [id=113]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2019-12-30 13:31:20.693+0000 [id=113]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2019-12-30 13:31:20.694+0000 [id=112]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2019-12-30 13:31:20.694+0000 [id=113]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2019-12-30 13:31:20.715+0000 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2019-12-30 13:31:20.724+0000 [id=114]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2019-12-30 13:31:20.807+0000 [id=102]	INFO	h.m.UpdateCenter$CompleteBatchJob#run: Completed installation of 21 plugins in 1 ¤À 14 ¬í
